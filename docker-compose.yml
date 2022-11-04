@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  app:
+    container_name: rapp
+    image: nextjs:demo
+    restart: always
+    ports:
+      - 3000:3000
